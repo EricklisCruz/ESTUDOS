@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Align Content</title>
+
+    <style>
+        .container{
+            height: 400px;
+            max-width: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid black;
+        }
+        .item{
+            background-color: orangered;
+            padding: 0 5px;
+            margin: 5px;
+            flex: 1;
+            text-align: center;
+            color: white;
+        }
+        .stretch{
+            align-content: stretch;
+        }
+        .center{
+            align-content: center;
+        }
+        .start{
+            align-content: flex-start;
+        }
+        .emd{
+            align-content: flex-end;
+        }
+        .sapce-bt{
+            align-content: space-between;
+        }
+        .space-ar{
+            align-content: space-around;
+        }
+    </style>
+</head>
+<body>
+
+    <p>Stretch</p>
+
+    <div class="container stretch">
+        <div class="item">Lorem ipsum dolor sit amet c</div>
+        <div class="item">onsectetur, adipisicing elit. Vitae, tempora fuga? </div>
+        <div class="item">In laudantium vero sunt aliquid, quisquam quibusdam repellat quaerat, </div>
+        <div class="item">reprehenderit tempora rerum quia quisquam quibusdam repellat quaerat, quisquam quibusdam repellat quaerat,</div>
+        <div class="item"> fugiat, sapiente consectetur obcaecati quod. Possimus.</div>
+        <div class="item"> fugiat, sapiente consectetur obcaecati quod. Possimus.</div>
+        <div class="item">obcaecati quod. Possimus.</div>
+    </div>
+
+    <p>Center</p>
+    <div class="container center">
+        <div class="item">Lorem ipsum dolor sit amet c</div>
+        <div class="item">onsectetur, adipisicing elit. Vitae, tempora fuga? </div>
+        <div class="item">In laudantium vero sunt aliquid, quisquam  </div>
+        <div class="item">reprehenderit tempora rerum quia quisquam mknnknkk</div>
+        <div class="item"> fugiat, sapiente consectetur obcaecati quod. Possimus.</div>
+        <div class="item"> fugiat, sapiente consectetur obcaecati quod. Possimus.</div>
+        <div class="item">obcaecati quod. Possimus.</div>
+    </div>
+
+    <p>Flex-start</p>
+    <div class="container start">
+        <div class="item">Lorem ipsum dolor sit amet c</div>
+        <div class="item">onsectetur, adipisicing elit. Vitae, tempora fuga? </div>
+        <div class="item">In laudantium vero sunt aliquid, quisquam quibusd </div>
+        <div class="item">reprehenderit tempora rerum quia quisquaquam quibusdam repellat quaerat,</div>
+        <div class="item"> fugiat, sapiente consectetur obcaecati quod. Possimus.</div>
+        <div class="item"> fugiat, sapiente consectetur obcaecati quod. Possimus.</div>
+        <div class="item">obcaecati quod. Possimus.</div>
+
+    </div>
+
+    <p>Flex end</p>
+    <div class="container end">
+        <div class="item">Lorem ipsum dolor sit amet c</div>
+        <div class="item">onsectetur,  </div>
+        <div class="item">In laudantium vero sunt aliquid, quis </div>
+        <div class="item">reprehenderit tempora rerum quia qui erat, knknjl</div>
+        <div class="item"> fugiat, sapiente consectetur obcaecac jkbnkvnkbkb</div>
+        <div class="item"> fugiat, sapiente consectetur o kjvhvhh bmbvhm</div>
+        <div class="item">obcaecati knklnnnkn kn</div>
+    </div>
+
+    <p>space-between</p>
+
+    <div class="container space-bt">
+        <div class="item">Lorem ipsum dolor sit amet c</div>
+        <div class="item">onsectetur, adipisicing elit. Vitae, tempora fuga? </div>
+        <div class="item">In laudantium  </div>
+        <div class="item">reprehenderit tempora rerum quia quis</div>
+        <div class="item"> fugiat, sapiente consectetur </div>
+        <div class="item"> fugiat, sapiente consectetur obcaecati quod. Possimus.</div>
+        <div class="item">obcaecati quod. Possimus.</div>
+    </div>
+
+    <p>space-around</p>
+
+    <div class="container space-ar">
+        <div class="item">Lorem ipsum dolor sit amet c</div>
+        <div class="item">onsectetur, adipisicing elit. Vitae, tempora fuga? </div>
+        <div class="item">In laudantium vero sunt aliquid, quisquam quibusdam repellat quaerat, </div>
+        <div class="item">reprehenderit tempora rerum quia quisquam quibusdam repellat quaerat, quisquam quibusdam repellat quaerat,</div>
+        <div class="item"> fugiat, sapiente consectetur obcaecati quod. Possimus.</div>
+        <div class="item"> fugiat, sapiente consectetur obcaecati quod. Possimus.</div>
+        <div class="item">obcaecati quod. Possimus.</div>
+    </div>
+    
+</body>
+</html>
